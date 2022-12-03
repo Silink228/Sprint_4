@@ -16,7 +16,7 @@ public class HomePage {
 
     //Локаторы для выпадающего списка
     private final By cookieButton = By.className("App_CookieButton__3cvqF");
-    private WebElement webElement;
+
     private final By orderButtonUp = By.className("Button_Button__ra12g");
     public By scrollQuestions = By.id("accordion__heading-0"); //Локатор блока FAQ
     public By scrollQuestions1 = By.id("accordion__heading-1");

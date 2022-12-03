@@ -22,8 +22,11 @@ public class HomePageTest {
  driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
 
   HomePage objHomePage = new HomePage(driver);
+
   objHomePage.clickCookieButton();
   objHomePage.testAccordionFull();
+
+
     }
  @After
  public void tearDown() {
